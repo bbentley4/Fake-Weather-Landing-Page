@@ -5,9 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather: Dashboard</title>
-    <style></style>
+    <style>
+      h1 {
+        text-align: center;
+        margin-bottom: 0%;
+      }
+      h2 {
+        text-align: center;
+        color: #1a64d6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 34px;
+        margin-top: 0%;
+        margin-bottom: 10px;
+      }
+      h3 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 34px;
+        margin-top: 0%;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      li {
+        padding: 10px;
+        border-radius: 10px;
+        max-width: 400px;
+        margin: 0 auto;
+        font-size: 19px;
+      }
+      li:hover {
+        transition: all 200ms ease-in-out;
+        background: #fefbef;
+        color: black;
+      }
+      p {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 18px;
+        color: #4d4d4d;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
+        color: white;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      button:hover {
+        background: white;
+        color: #1a64d6;
+      }
+
+      .author {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 18px;
+        color: #4d4d4d;
+        display: block;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <h1>🌤</h1>
+    <h2>Currently 21° in Tokyo</h2>
+    <h3>13° / <strong>23°</strong></h3>
+    <ul>
+      <li>
+        <strong>🌧Tomorrow</strong>
+        <p>10° / <strong>22°</strong></p>
+      </li>
+      <li>
+        <strong>🌥Saturday</strong>
+        <p>15° / <strong>17°</strong></p>
+      </li>
+      <li>
+        <strong>☀️Sunday</strong>
+        <p>25° / <strong>28°</strong></p>
+      </li>
+    </ul>
+    <button>Change City</button>
+    <span class="author"> Coded by Brenna Bentley </span>
   </body>
 </html>
